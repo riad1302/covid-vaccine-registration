@@ -20,6 +20,6 @@ Route::middleware('auth')->group(function () {
 });
 Route::get('/search', [SearchController::class, 'search'])->name('search');
 Route::get('/search-status', [SearchController::class, 'searchStatus'])->name('search.status');
-Route::get('/sendMail', [VaccineController::class, 'notifyVaccinations']);
+//Route::get('/sendMail', [VaccineController::class, 'notifyVaccinations']);
 
 require __DIR__.'/auth.php';

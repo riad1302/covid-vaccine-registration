@@ -105,3 +105,206 @@
 2024-10-10 23:59:58,744 INFO waiting for laravel-worker_00, php-fpm to die
 2024-10-10 23:59:58,754 INFO stopped: php-fpm (exit status 0)
 2024-10-10 23:59:58,756 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:23:48,970 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2024-10-11 22:23:48,972 INFO supervisord started with pid 1
+2024-10-11 22:23:49,980 INFO spawned: 'laravel-scheduler' with pid 7
+2024-10-11 22:23:49,984 INFO spawned: 'laravel-worker_00' with pid 8
+2024-10-11 22:23:49,988 INFO spawned: 'php-fpm' with pid 9
+2024-10-11 22:23:50,438 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-11 22:23:51,445 INFO spawned: 'laravel-scheduler' with pid 18
+2024-10-11 22:23:51,445 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-11 22:23:51,446 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-11 22:23:51,619 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-11 22:23:53,625 INFO spawned: 'laravel-scheduler' with pid 21
+2024-10-11 22:23:53,774 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-11 22:23:56,785 INFO spawned: 'laravel-scheduler' with pid 24
+2024-10-11 22:23:56,929 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-11 22:23:57,932 INFO gave up: laravel-scheduler entered FATAL state, too many start retries too quickly
+2024-10-11 22:53:50,466 WARN received SIGQUIT indicating exit request
+2024-10-11 22:53:50,467 INFO waiting for laravel-worker_00, php-fpm to die
+2024-10-11 22:53:50,474 INFO stopped: php-fpm (exit status 0)
+2024-10-11 22:53:50,485 INFO stopped: laravel-worker_00 (exit status 0)
+2024-10-11 22:54:10,094 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2024-10-11 22:54:10,095 INFO supervisord started with pid 1
+2024-10-11 22:54:11,100 INFO spawned: 'laravel-scheduler' with pid 6
+2024-10-11 22:54:11,102 INFO spawned: 'laravel-worker_00' with pid 7
+2024-10-11 22:54:11,104 INFO spawned: 'php-fpm' with pid 8
+2024-10-11 22:54:11,384 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-11 22:54:12,391 INFO spawned: 'laravel-scheduler' with pid 17
+2024-10-11 22:54:12,392 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-11 22:54:12,392 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-11 22:54:12,542 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-11 22:54:14,549 INFO spawned: 'laravel-scheduler' with pid 20
+2024-10-11 22:54:14,699 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-11 22:54:17,709 INFO spawned: 'laravel-scheduler' with pid 23
+2024-10-11 22:54:17,868 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-11 22:54:18,870 INFO gave up: laravel-scheduler entered FATAL state, too many start retries too quickly
+2024-10-11 22:54:59,525 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:55:00,532 INFO spawned: 'laravel-worker_00' with pid 26
+2024-10-11 22:55:00,689 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:55:01,694 INFO spawned: 'laravel-worker_00' with pid 31
+2024-10-11 22:55:01,846 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:55:03,854 INFO spawned: 'laravel-worker_00' with pid 36
+2024-10-11 22:55:04,007 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:55:07,016 INFO spawned: 'laravel-worker_00' with pid 41
+2024-10-11 22:55:07,167 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:55:08,170 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-10-11 22:55:10,175 WARN received SIGQUIT indicating exit request
+2024-10-11 22:55:10,176 INFO waiting for php-fpm to die
+2024-10-11 22:55:10,183 INFO stopped: php-fpm (exit status 0)
+2024-10-11 22:55:10,457 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2024-10-11 22:55:10,458 INFO supervisord started with pid 1
+2024-10-11 22:55:11,464 INFO spawned: 'laravel-scheduler' with pid 7
+2024-10-11 22:55:11,466 INFO spawned: 'laravel-worker_00' with pid 8
+2024-10-11 22:55:11,469 INFO spawned: 'php-fpm' with pid 9
+2024-10-11 22:55:11,808 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 22:55:11,808 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:55:12,815 INFO spawned: 'laravel-scheduler' with pid 18
+2024-10-11 22:55:12,819 INFO spawned: 'laravel-worker_00' with pid 19
+2024-10-11 22:55:12,819 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-11 22:55:13,017 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 22:55:13,019 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:55:15,029 INFO spawned: 'laravel-scheduler' with pid 26
+2024-10-11 22:55:15,032 INFO spawned: 'laravel-worker_00' with pid 27
+2024-10-11 22:55:15,228 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 22:55:15,233 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:55:18,244 INFO spawned: 'laravel-scheduler' with pid 34
+2024-10-11 22:55:18,248 INFO spawned: 'laravel-worker_00' with pid 35
+2024-10-11 22:55:18,451 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 22:55:18,452 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:55:18,452 INFO gave up: laravel-scheduler entered FATAL state, too many start retries too quickly
+2024-10-11 22:55:18,452 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-10-11 22:55:58,574 WARN received SIGQUIT indicating exit request
+2024-10-11 22:55:58,574 INFO waiting for php-fpm to die
+2024-10-11 22:55:58,578 INFO stopped: php-fpm (exit status 0)
+2024-10-11 22:56:18,256 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2024-10-11 22:56:18,256 INFO supervisord started with pid 1
+2024-10-11 22:56:19,260 INFO spawned: 'laravel-scheduler' with pid 7
+2024-10-11 22:56:19,261 INFO spawned: 'laravel-worker_00' with pid 8
+2024-10-11 22:56:19,262 INFO spawned: 'php-fpm' with pid 9
+2024-10-11 22:56:19,532 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 22:56:20,537 INFO spawned: 'laravel-scheduler' with pid 18
+2024-10-11 22:56:20,537 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-11 22:56:20,537 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-11 22:56:20,537 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:56:20,670 INFO spawned: 'laravel-worker_00' with pid 21
+2024-10-11 22:56:20,674 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 22:56:20,820 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:56:21,824 INFO spawned: 'laravel-worker_00' with pid 26
+2024-10-11 22:56:21,994 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:56:22,996 INFO spawned: 'laravel-scheduler' with pid 31
+2024-10-11 22:56:23,114 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 22:56:24,120 INFO spawned: 'laravel-worker_00' with pid 34
+2024-10-11 22:56:24,282 WARN received SIGQUIT indicating exit request
+2024-10-11 22:56:24,282 INFO waiting for laravel-scheduler, laravel-worker_00, php-fpm to die
+2024-10-11 22:56:24,284 INFO stopped: php-fpm (exit status 0)
+2024-10-11 22:56:24,286 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-10-11 22:56:24,549 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2024-10-11 22:56:24,550 INFO supervisord started with pid 1
+2024-10-11 22:56:25,559 INFO spawned: 'laravel-scheduler' with pid 6
+2024-10-11 22:56:25,561 INFO spawned: 'laravel-worker_00' with pid 7
+2024-10-11 22:56:25,563 INFO spawned: 'php-fpm' with pid 8
+2024-10-11 22:56:25,863 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:56:25,866 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 22:56:26,872 INFO spawned: 'laravel-scheduler' with pid 17
+2024-10-11 22:56:26,875 INFO spawned: 'laravel-worker_00' with pid 18
+2024-10-11 22:56:26,876 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-11 22:56:27,071 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 22:56:27,074 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:56:29,082 INFO spawned: 'laravel-scheduler' with pid 25
+2024-10-11 22:56:29,084 INFO spawned: 'laravel-worker_00' with pid 26
+2024-10-11 22:56:29,290 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 22:56:29,292 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:56:32,303 INFO spawned: 'laravel-scheduler' with pid 33
+2024-10-11 22:56:32,306 INFO spawned: 'laravel-worker_00' with pid 34
+2024-10-11 22:56:32,507 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 22:56:32,507 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 22:56:33,509 INFO gave up: laravel-scheduler entered FATAL state, too many start retries too quickly
+2024-10-11 22:56:33,510 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-10-11 23:05:53,143 WARN received SIGQUIT indicating exit request
+2024-10-11 23:05:53,145 INFO waiting for php-fpm to die
+2024-10-11 23:05:53,149 INFO stopped: php-fpm (exit status 0)
+2024-10-11 23:11:15,139 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2024-10-11 23:11:15,140 INFO supervisord started with pid 1
+2024-10-11 23:11:16,144 INFO spawned: 'laravel-scheduler' with pid 7
+2024-10-11 23:11:16,147 INFO spawned: 'laravel-worker_00' with pid 8
+2024-10-11 23:11:16,150 INFO spawned: 'php-fpm' with pid 9
+2024-10-11 23:11:16,417 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-11 23:11:17,424 INFO spawned: 'laravel-scheduler' with pid 18
+2024-10-11 23:11:17,425 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-11 23:11:17,425 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-11 23:11:17,567 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-11 23:11:19,577 INFO spawned: 'laravel-scheduler' with pid 21
+2024-10-11 23:11:19,731 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-11 23:11:22,744 INFO spawned: 'laravel-scheduler' with pid 24
+2024-10-11 23:11:22,887 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-11 23:11:23,890 INFO gave up: laravel-scheduler entered FATAL state, too many start retries too quickly
+2024-10-11 23:11:43,939 WARN received SIGQUIT indicating exit request
+2024-10-11 23:11:43,939 INFO waiting for laravel-worker_00, php-fpm to die
+2024-10-11 23:11:43,942 INFO stopped: php-fpm (exit status 0)
+2024-10-11 23:11:43,946 INFO stopped: laravel-worker_00 (exit status 0)
+2024-10-11 23:12:08,273 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2024-10-11 23:12:08,275 INFO supervisord started with pid 1
+2024-10-11 23:12:09,279 INFO spawned: 'laravel-scheduler' with pid 7
+2024-10-11 23:12:09,282 INFO spawned: 'laravel-worker_00' with pid 8
+2024-10-11 23:12:09,285 INFO spawned: 'php-fpm' with pid 9
+2024-10-11 23:12:09,543 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 23:12:09,546 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 23:12:10,548 INFO spawned: 'laravel-scheduler' with pid 18
+2024-10-11 23:12:10,549 INFO spawned: 'laravel-worker_00' with pid 19
+2024-10-11 23:12:10,549 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-11 23:12:10,713 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 23:12:10,714 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 23:12:12,722 INFO spawned: 'laravel-scheduler' with pid 26
+2024-10-11 23:12:12,723 INFO spawned: 'laravel-worker_00' with pid 27
+2024-10-11 23:12:12,916 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 23:12:12,916 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 23:12:15,928 INFO spawned: 'laravel-scheduler' with pid 34
+2024-10-11 23:12:15,932 INFO spawned: 'laravel-worker_00' with pid 35
+2024-10-11 23:12:16,130 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 23:12:16,135 INFO gave up: laravel-scheduler entered FATAL state, too many start retries too quickly
+2024-10-11 23:12:16,138 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 23:12:17,141 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-10-11 23:14:06,467 WARN received SIGQUIT indicating exit request
+2024-10-11 23:14:06,469 INFO waiting for php-fpm to die
+2024-10-11 23:14:06,477 INFO stopped: php-fpm (exit status 0)
+2024-10-11 23:14:49,331 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2024-10-11 23:14:49,333 INFO supervisord started with pid 1
+2024-10-11 23:14:50,337 INFO spawned: 'laravel-scheduler' with pid 7
+2024-10-11 23:14:50,338 INFO spawned: 'laravel-worker_00' with pid 8
+2024-10-11 23:14:50,339 INFO spawned: 'php-fpm' with pid 9
+2024-10-11 23:14:50,585 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 23:14:50,587 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 23:14:51,590 INFO spawned: 'laravel-scheduler' with pid 18
+2024-10-11 23:14:51,591 INFO spawned: 'laravel-worker_00' with pid 19
+2024-10-11 23:14:51,591 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-11 23:14:51,751 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 23:14:51,752 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 23:14:53,762 INFO spawned: 'laravel-scheduler' with pid 26
+2024-10-11 23:14:53,763 INFO spawned: 'laravel-worker_00' with pid 27
+2024-10-11 23:14:53,958 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 23:14:53,960 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 23:14:56,973 INFO spawned: 'laravel-scheduler' with pid 34
+2024-10-11 23:14:56,976 INFO spawned: 'laravel-worker_00' with pid 35
+2024-10-11 23:14:57,183 INFO exited: laravel-scheduler (exit status 1; not expected)
+2024-10-11 23:14:57,189 INFO gave up: laravel-scheduler entered FATAL state, too many start retries too quickly
+2024-10-11 23:14:57,192 INFO exited: laravel-worker_00 (exit status 1; not expected)
+2024-10-11 23:14:58,197 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-10-12 00:33:37,709 WARN received SIGQUIT indicating exit request
+2024-10-12 00:33:37,712 INFO waiting for php-fpm to die
+2024-10-12 00:33:37,726 INFO stopped: php-fpm (exit status 0)
+2024-10-12 00:33:43,083 WARN For [program:laravel-worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2024-10-12 00:33:43,084 INFO supervisord started with pid 1
+2024-10-12 00:33:44,090 INFO spawned: 'laravel-scheduler' with pid 7
+2024-10-12 00:33:44,094 INFO spawned: 'laravel-worker_00' with pid 8
+2024-10-12 00:33:44,097 INFO spawned: 'php-fpm' with pid 9
+2024-10-12 00:33:44,385 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-12 00:33:45,393 INFO spawned: 'laravel-scheduler' with pid 25
+2024-10-12 00:33:45,394 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-12 00:33:45,394 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-12 00:33:45,537 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-12 00:33:47,547 INFO spawned: 'laravel-scheduler' with pid 28
+2024-10-12 00:33:47,693 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-12 00:33:50,705 INFO spawned: 'laravel-scheduler' with pid 31
+2024-10-12 00:33:50,844 INFO exited: laravel-scheduler (exit status 0; not expected)
+2024-10-12 00:33:51,847 INFO gave up: laravel-scheduler entered FATAL state, too many start retries too quickly

@@ -53,7 +53,7 @@ services:
       - ${MYSQL_PUBLISH_PORT}:3306
     volumes:
       - kahf-mysql:/var/lib/mysql
-      - ./mysql/sqls:/sqls
+      - ./mysql/sqls:/docker-entrypoint-initdb.d
     networks:
       kahf-net:
         aliases:

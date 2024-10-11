@@ -25,8 +25,11 @@ class UserFactory extends Factory
     {
         return [
             'name' => fake()->name(),
+            'vaccine_center_id' => VaccineCenterFactory::new()->create()->id,
             'email' => fake()->unique()->safeEmail(),
             'email_verified_at' => now(),
+            'mobile_number' => fake()->phoneNumber(),
+            'nid' => fake()->numberBetween(10, 10),
             'password' => static::$password ??= Hash::make('password'),
             'remember_token' => Str::random(10),
         ];
