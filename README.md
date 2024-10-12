@@ -27,6 +27,9 @@
     cp mysql.env.example mysql.env
     cp php-ini.env.example php-ini.env
     cp redis.env.example redis.env
+    cd ../../codes/
+    cp .env.example .env
+    cd ../docker
     docker network create kahf-net
     docker-compose build
     docker-compose up -d
