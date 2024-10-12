@@ -31,6 +31,8 @@ RUN echo "-- Configure Timezone --" \
             unzip \
             zip \
             supervisor \
+            git \
+            vim \
     && echo "-- Install Extra APT Dependencies --" \
         && if [ ! -z "${EXTRA_INSTALL_APT_PACKAGES}" ]; then \
             apt install -y ${EXTRA_INSTALL_APT_PACKAGES} \
@@ -70,6 +72,13 @@ RUN curl -L -o /usr/local/bin/composer https://github.com/composer/composer/rele
     && chmod ugo+x /usr/local/bin/composer \
     && composer --version
 
+# Install Node.js and npm for Vite
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
+    && apt-get install -y nodejs \
+    && npm --version \
+    && node --version
+
+# Set up user and permissions
 ARG UID="1000"
 ARG GID="1000"
 
@@ -106,8 +115,14 @@ COPY --chown=app:app ${HOST_APP_ROOT_DIR}artisan ./
 # Copy Supervisor configuration file
 COPY --chown=app:app ./docker/app/supervisord.conf /etc/supervisor/supervisord.conf
 
+# Copy Node.js related files and install npm dependencies
+COPY --chown=app:app ${HOST_APP_ROOT_DIR}package*.json ${HOST_APP_ROOT_DIR}package-lock* /var/www/html/
+
 # Composer Dump-Autoload
 RUN composer install --no-dev --optimize-autoloader --classmap-authoritative
+
+# Expose port for the web server
+EXPOSE 9000
 
 ENTRYPOINT [ "/usr/local/bin/docker-entrypoint.sh" ]
 
